@@ -1,0 +1,47 @@
+.orbit {
+	width: 100%;
+	height: 400px;
+}
+
+.margin{
+	margin-top: 1cm;
+}
+
+.name{
+	text-align: center;
+}
+
+.text{
+	color: white;
+	font-family: 'Asap', sans-serif;
+
+}
+
+.justif{
+	text-align: justify;
+}
+
+.orbitSection{
+	padding-bottom: 60px;
+	background-color: #6BB28F;
+}
+
+.bar{
+	background-color: #293D3D
+}
+
+.section2{
+	background-color: #9999FF;
+	margin-color: #9999FF;
+	padding-bottom: 60px;
+}
+
+.section3{
+	background-color: #FFAA70;
+	margin-color: #FFAA70;
+	padding-bottom: 60px;
+}
+
+.imageFoot{
+	width: 50%;
+}
