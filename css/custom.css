@@ -42,6 +42,10 @@
 	padding-bottom: 60px;
 }
 
-.imageFoot{
-	width: 50%;
+.center{
+	text-align: center;
+}
+
+.images{
+	margin: auto;
 }
