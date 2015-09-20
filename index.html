@@ -25,29 +25,31 @@
 
     <section class="main-section">
       <div class="large-12 columns orbitSection">
-        <div class="large-6 columns large-offset-3 columns margin">
-          <h1 class="name text margin">José Francisco Tejón Sáenz</h1>
-          <h3 class="text">Habilidades</h3>
-          <ul class="data-orbit" data-orbit>
-          <li>
-            <img src="img/web.png" class="orbit" alt="slide 1" />
-            <div class="orbit-caption">
-              Desarrollo Web
-            </div>
-          </li>
-          <li>
-            <img src="img/responsivo.png" class="orbit" alt="slide 2"/>
-            <div class="orbit-caption">
-              Experiencia con diseño responsivo
-            </div>
-          </li>
+        <div class="small-12 columns">
+          <div class="large-6 columns large-offset-3 columns margin">
+            <h1 class="name text margin">José Francisco Tejón Sáenz</h1>
+            <h3 class="text">Habilidades</h3>
+            <ul class="data-orbit" data-orbit>
             <li>
-            <img src="img/apps.jpg" class="orbit" alt="slide 2"/>
-            <div class="orbit-caption">
-              Desarrollo de aplicaciones moviles
-            </div>
-          </li>
-        </ul>
+              <img src="img/web.png" class="orbit" alt="slide 1" />
+              <div class="orbit-caption">
+                Desarrollo Web
+              </div>
+            </li>
+            <li>
+              <img src="img/responsivo.png" class="orbit" alt="slide 2"/>
+              <div class="orbit-caption">
+                Experiencia con diseño responsivo
+              </div>
+            </li>
+              <li>
+              <img src="img/apps.jpg" class="orbit" alt="slide 2"/>
+              <div class="orbit-caption">
+                Desarrollo de aplicaciones moviles
+              </div>
+            </li>
+          </ul>
+          </div>
         </div>
       </div>
 
@@ -87,10 +89,10 @@
         </div>
         <div class="row">
           <div class="small-3 columns margin center">
-             <div class="small-10 columns small-offset-1 columns">
-              <img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" class="auto"  width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
+             
+              <img src="img/html5.png" class="auto"  width="63" height="64">
               <p class="text">HTML5</p>
-            </div>
+            
           </div>
           <div class="small-3 columns margin center">
             
@@ -128,12 +130,11 @@
       $(document).foundation({
          orbit: {
           animation: 'slide',
-          timer_speed: 5000,
-          pause_on_hover: true,
+          timer_speed: 3500,
+          pause_on_hover: false,
           animation_speed: 500,
           navigation_arrows: true,
-          slide_number: false,
-          resume_on_mouseout: true
+          slide_number: false
   }
       });
     </script>
