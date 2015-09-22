@@ -50,3 +50,15 @@
 .images{
 	margin: auto;
 }
+
+
+.footer{
+	background-color: #CFCF7C;
+	text-align: center;
+	margin-color: #CFCF7C;
+	padding-bottom: 30px;
+}
+
+.aste{
+	color: red;
+}
